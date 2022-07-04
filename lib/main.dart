@@ -23,6 +23,8 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
+  var indexClicked = 0;
+
   final pages = [
     Center(
       child: Text('Inbox'),
@@ -46,6 +48,11 @@ class _MainPageState extends State<MainPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Bottom Navigation'),
+      ),
+      body: pages[indexClicked],
+    );
   }
 }
