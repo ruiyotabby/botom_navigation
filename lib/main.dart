@@ -23,6 +23,12 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
+  final pages = [
+    Center(
+      child: Text('Inbox'),
+    )
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Container();
