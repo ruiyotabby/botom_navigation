@@ -26,7 +26,22 @@ class _MainPageState extends State<MainPage> {
   final pages = [
     Center(
       child: Text('Inbox'),
-    )
+    ),
+    Center(
+      child: Text('Starred'),
+    ),
+    Center(
+      child: Text('Sent'),
+    ),
+    Center(
+      child: Text('Drafts'),
+    ),
+    Center(
+      child: Text('Trash'),
+    ),
+    Center(
+      child: Text('Spam'),
+    ),
   ];
 
   @override
