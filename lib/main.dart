@@ -56,7 +56,7 @@ class _MainPageState extends State<MainPage> {
       body: pages[indexClicked],
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.blue[100],
-        type: BottomNavigationBarType.fixed,
+        type: BottomNavigationBarType.shifting,
         elevation: 50,
         selectedItemColor: Defaults.bottomNavItemSelectorColor,
         unselectedItemColor: Defaults.bottomNavItemColor,
@@ -68,40 +68,39 @@ class _MainPageState extends State<MainPage> {
         },
         items: [
           BottomNavigationBarItem(
+            backgroundColor: Colors.blue,
             icon: Icon(
               Defaults.bottomNavItemIcon[0],
             ),
             label: Defaults.bottomNavItemText[0],
           ),
           BottomNavigationBarItem(
+            backgroundColor: Colors.orange,
             icon: Icon(
               Defaults.bottomNavItemIcon[1],
             ),
             label: Defaults.bottomNavItemText[1],
           ),
           BottomNavigationBarItem(
+            backgroundColor: Colors.purple,
             icon: Icon(
               Defaults.bottomNavItemIcon[2],
             ),
             label: Defaults.bottomNavItemText[2],
           ),
           BottomNavigationBarItem(
+            backgroundColor: Colors.red,
             icon: Icon(
               Defaults.bottomNavItemIcon[3],
             ),
             label: Defaults.bottomNavItemText[3],
           ),
           BottomNavigationBarItem(
+            backgroundColor: Colors.green,
             icon: Icon(
               Defaults.bottomNavItemIcon[4],
             ),
             label: Defaults.bottomNavItemText[4],
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Defaults.bottomNavItemIcon[5],
-            ),
-            label: Defaults.bottomNavItemText[5],
           ),
         ],
       ),
