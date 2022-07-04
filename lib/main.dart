@@ -56,6 +56,11 @@ class _MainPageState extends State<MainPage> {
       body: pages[indexClicked],
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.blue[100],
+        type: BottomNavigationBarType.fixed,
+        elevation: 50,
+        selectedItemColor: Defaults.bottomNavItemSelectorColor,
+        unselectedItemColor: Defaults.bottomNavItemColor,
+        currentIndex: indexClicked,
         items: [
           BottomNavigationBarItem(
             icon: Icon(
