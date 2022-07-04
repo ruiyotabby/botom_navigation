@@ -61,6 +61,11 @@ class _MainPageState extends State<MainPage> {
         selectedItemColor: Defaults.bottomNavItemSelectorColor,
         unselectedItemColor: Defaults.bottomNavItemColor,
         currentIndex: indexClicked,
+        onTap: (value) {
+          setState(() {
+            indexClicked = value;
+          });
+        },
         items: [
           BottomNavigationBarItem(
             icon: Icon(
