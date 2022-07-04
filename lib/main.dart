@@ -55,12 +55,43 @@ class _MainPageState extends State<MainPage> {
       ),
       body: pages[indexClicked],
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.blue[100],
         items: [
           BottomNavigationBarItem(
             icon: Icon(
               Defaults.bottomNavItemIcon[0],
             ),
             label: Defaults.bottomNavItemText[0],
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Defaults.bottomNavItemIcon[1],
+            ),
+            label: Defaults.bottomNavItemText[1],
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Defaults.bottomNavItemIcon[2],
+            ),
+            label: Defaults.bottomNavItemText[2],
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Defaults.bottomNavItemIcon[3],
+            ),
+            label: Defaults.bottomNavItemText[3],
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Defaults.bottomNavItemIcon[4],
+            ),
+            label: Defaults.bottomNavItemText[4],
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Defaults.bottomNavItemIcon[5],
+            ),
+            label: Defaults.bottomNavItemText[5],
           ),
         ],
       ),
