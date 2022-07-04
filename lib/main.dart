@@ -1,3 +1,4 @@
+import 'package:botom_navigation/defaults/defaults.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -53,6 +54,16 @@ class _MainPageState extends State<MainPage> {
         title: Text('Bottom Navigation'),
       ),
       body: pages[indexClicked],
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(
+              Defaults.bottomNavItemIcon[0],
+            ),
+            label: Defaults.bottomNavItemText[0],
+          ),
+        ],
+      ),
     );
   }
 }
