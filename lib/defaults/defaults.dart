@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Defaults {
-  static final Color? bottomNavItemColor = Colors.blueGrey;
-  static final Color? bottomNavItemSelectorColor = Colors.blue[700];
+  static final Color? bottomNavItemColor = Colors.white;
+  static final Color? bottomNavItemSelectorColor = Colors.white;
 
   static final bottomNavItemText = [
     'Inbox',
@@ -22,4 +22,3 @@ class Defaults {
     Icons.warning_rounded,
   ];
 }
-
