@@ -89,14 +89,14 @@ class _MainPageState extends State<MainPage> {
             label: Defaults.bottomNavItemText[2],
           ),
           BottomNavigationBarItem(
-            backgroundColor: Colors.red,
+            backgroundColor: Color.fromARGB(255, 228, 29, 15),
             icon: Icon(
               Defaults.bottomNavItemIcon[3],
             ),
             label: Defaults.bottomNavItemText[3],
           ),
           BottomNavigationBarItem(
-            backgroundColor: Colors.green,
+            backgroundColor: Color.fromARGB(255, 34, 211, 42),
             icon: Icon(
               Defaults.bottomNavItemIcon[4],
             ),
